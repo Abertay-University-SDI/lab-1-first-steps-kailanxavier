@@ -85,6 +85,9 @@ int main()
 	sf::Clock clock;
 	float deltaTime = 0.f;
 
+	// Seed rand()
+	srand(time(0));
+
 	// Game Loop
 	while (window.isOpen())
 	{
