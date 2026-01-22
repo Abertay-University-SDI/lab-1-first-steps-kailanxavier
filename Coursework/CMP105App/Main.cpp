@@ -72,7 +72,7 @@ void windowProcess(sf::RenderWindow& window, Input& in)
 int main()
 {
 	//Create the window
-	sf::RenderWindow window(sf::VideoMode({ 800, 600 }), "cmp105 framework");
+	sf::RenderWindow window(sf::VideoMode({ 800, 600 }), "BLAH BLAH BLAH");
 	window.setVerticalSyncEnabled(true);
 
 	// Initialise input and manager objects.
